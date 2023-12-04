@@ -30,5 +30,6 @@ def main():
                 if any(x in special_chars for x in compare_above) or any(x in special_chars for x in compare_below) or any(x in special_chars for x in compare_current):
                     sum += int(match.group())
     print(sum)
+
 if __name__ == '__main__':
     main()
